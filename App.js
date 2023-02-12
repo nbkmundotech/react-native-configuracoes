@@ -1,12 +1,12 @@
 import React from 'react';
 import {
   ActivityIndicator,
-  Picker,
   StyleSheet,
   Text,
   View
 } from 'react-native';
-import { Constants } from 'expo';
+import { Picker } from '@react-native-picker/picker';
+import Constants from 'expo-constants';
 
 import Toggle from './components/Toggle';
 import { carregarConfiguracao, salvarConfiguracao } from './storage';

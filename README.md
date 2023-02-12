@@ -1,10 +1,10 @@
 # Projeto: Configurações
 
-Projeto do curso [Aplicativos Móveis com o React Native](https://www.udemy.com/aplicativos-moveis-com-o-react-native), por @nbkhope.
+Projeto do curso [Aplicativos Móveis com o React Native](https://www.udemy.com/course/aplicativos-moveis-com-o-react-native), por @nbkhope.
 
 ## Instalação
 
-Este projeto foi gerado usando o `expo-cli`.
+Este projeto foi gerado usando o `create-expo-app`.
 
 Instale as dependências:
 
