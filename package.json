@@ -1,21 +1,23 @@
 {
-  "name": "empty-project-template",
+  "name": "configuracoes",
+  "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
-  "private": true,
   "author": "nbkhope",
   "license": "MIT",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "eject": "expo eject"
+    "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "^31.0.2",
-    "react": "16.5.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz"
+    "expo": "~47.0.12",
+    "expo-status-bar": "~1.4.2",
+    "react": "18.1.0",
+    "react-native": "0.70.5"
   },
   "devDependencies": {
-    "babel-preset-expo": "^5.0.0"
-  }
+    "@babel/core": "^7.12.9"
+  },
+  "private": true
 }
