@@ -1,6 +1,4 @@
-import {
-  AsyncStorage
-} from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 export const salvarConfiguracao = async (propriedade, valor) => {
   try {
